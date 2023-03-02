@@ -1,0 +1,97 @@
+/* Set default font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #c9ffb5;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #1b2f16; /* dark green */
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #3a5f2d; /* lighter green */
+  }
+  
+  /* Style the header */
+  header {
+    background-image: url('header-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #8bff61(124, 227, 40);
+    text-shadow: 1px 1px #1b2f16; /* dark green */
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  header p {
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+  
+  /* Style the main content */
+  main {
+    margin: 20px;
+  }
+  
+  main section {
+    margin: 50px 0;
+  }
+  
+  main h2 {
+    color: #1b2f16; /* dark green */
+    font-size: 36px;
+    margin: 0 0 20px 0;
+  }
+  
+  main p {
+    line-height: 1.5;
+  }
+  
+  main a {
+    color: #3a5f2d; /* lighter green */
+    text-decoration: none;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #1b2f16; /* dark green */
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
