@@ -48,6 +48,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #8bff61(124, 227, 40);
+    background-color: #c9ffb5;
     text-shadow: 1px 1px #1b2f16; /* dark green */
   }
   
@@ -65,7 +66,8 @@ body {
   
   /* Style the main content */
   main {
-    margin: 20px;
+    margin: 0 20px;
+    background-color: #c9ffb5;
   }
   
   main section {
@@ -79,7 +81,8 @@ body {
   }
   
   main p {
-    line-height: 1.5;
+    line-height: 2;
+    font-size: 22px;
   }
   
   main a {
